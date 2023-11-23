@@ -1,0 +1,37 @@
+.field {
+    height: 300px;
+    width: 400px;
+    position: relative;
+}
+
+.row {
+    height: 100px;
+}
+
+.topLeft {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px dashed #000;
+    width: 50%;
+}
+
+.topRight {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    width: 50%;
+}
+
+.midLeft {
+    border-right: 1px dashed #000;
+}
+
+.bottomLeft {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px dashed #000;
+}
+
+.bottomRight {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
